@@ -6,17 +6,19 @@
   h1 {
     margin: 0;
     padding-bottom: 0.5em;
-    font:  150% sans-serif;
-    color: #226;
-    border-bottom: 3px dotted #77d;
+    font:  150% Trebuchet MS;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #29a3a3;
+    border-bottom: 2px solid #333333;
   }
 
   /* An entry in the store catalog */
   .entry {
     overflow: auto;
-    margin-top: 1em;
-    border-bottom: 1px dotted #77d;
-    min-height: 100px;
+    margin-top: 1.5em;
+    border-bottom: 1px solid #d9d9d9;
+    min-height: 130px;
 
     img {
       width: 80px;
@@ -47,7 +49,7 @@
 //
 
     .price {
-      color: #44a;
+      color: #29a3a3;
       font-weight: bold;
       margin-right: 3em;
     }
