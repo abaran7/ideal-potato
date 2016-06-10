@@ -109,6 +109,8 @@ Product.create!(title: 'Anger and Forgiveness - Martha C. Nussbaum',
     personal and the political? </p>},
   image_url: 'https://d.gr-assets.com/books/1450647202l/26721206.jpg',
   price: 37.00)
+         . . .
+         
 #Product.create!(title: 'CoffeeScript',
 #  description: 
 #    %{<p>
