@@ -7,7 +7,7 @@
 # Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
 #---
 # encoding: utf-8
-#Product.delete_all
+Product.delete_all
 Product.create!(title: 'The Infernal Devices - Cassandra Clare',
   description: 
     %{<p> Sixteen-year-old Tessa Gray crosses the ocean to find her 
