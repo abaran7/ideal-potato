@@ -21,11 +21,9 @@ en:
 
   layouts:
     application:
-      title:       "Pragmatic Bookshelf"
+      title:       "Awesome Books"
       home:        "Home"
-      questions:   "Questions"
-      news:        "News"
-      contact:     "Contact"
+      admin_login: "Admin Login"
 
   carts:
     cart:
@@ -35,7 +33,7 @@ en:
 
   store:
     index:
-      title_html:  "Your Pragmatic Catalog"
+      title_html:  "Catalog"
       add_html:    "Add to Cart"
 
   orders:

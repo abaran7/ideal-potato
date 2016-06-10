@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Pragprog Books Online Store</title>
+  <title>Awesome Books Online</title>
   <%= stylesheet_link_tag    "application", media: "all",
     "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
@@ -29,13 +29,26 @@
       <% end %>
 
       <ul>
-        <li><a href="http://www...."><%= t('.home') %></a></li>
-        <li><a href="http://www..../faq"><%= t('.questions') %></a></li>
-        <li><a href="http://www..../news"><%= t('.news') %></a></li>
-        <li><a href="http://www..../contact"><%= t('.contact') %></a></li>
+        <li><%= link_to 'Home', store_path %></li>
+        <li><%= link_to 'Admin Login', admin_path %></li>
+        <!--<li><a href="http://www..../news"><%= t('.news') %></a></li>-->
+        <!--<li><a href="http://www..../contact"><%= t('.contact') %></a></li>-->
+      </ul>
+      
+      <br>
+      <h3>RESOURCES</h3>
+      <ul>
+      <li><a href="http://www.goodreads.com">Goodreads</a></li>
+      <li><a href="http://www.booklistonline.com">Booklist Online</a></li>
+      <li><a href="http://www.booklistreader.com">Booklist Reader</a></li>
+      <li><a href="http://www.readanybook.com">Read Any Book</a></li>
+      <li><a href="http://www.bookadventure.com">Book Adventure</a></li>
       </ul>
 
+
       <% if session[:user_id] %>
+      <br>
+      <h3>ADMIN LINKS</h3>
         <ul>
           <li><%= link_to 'Orders',   orders_path   %></li>
           <li><%= link_to 'Products', products_path %></li>

@@ -23,11 +23,8 @@ es:
 
   layouts:
     application:
-      title:       "Publicaciones de Pragmatic"
+      title:       "Libros en Línea Impresionante"
       home:        "Inicio"
-      questions:   "Preguntas"
-      news:        "Noticias"
-      contact:     "Contacto"
 
   carts:
     cart:
@@ -37,7 +34,7 @@ es:
 
   store:
     index:
-      title_html:  "Su Cat&aacute;logo de Pragmatic"
+      title_html:  "Catalogar"
       add_html:    "A&ntilde;adir al Carrito"
 
   orders:
