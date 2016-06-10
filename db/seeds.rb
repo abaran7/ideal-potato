@@ -6,7 +6,7 @@
 # We make no guarantees that this code is fit for any purpose.
 # Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
 #---
-# encoding: utf-8
+# encoding:utf-8
 Product.delete_all
 Product.create!(title: 'The Infernal Devices - Cassandra Clare',
   description: 
@@ -57,7 +57,7 @@ Product.create!(title: 'Books Do Furnish a Room - Leslie Geddes-Brown',
     room into an alluring and magical place. </p>},
   image_url: 'https://d.gr-assets.com/books/1348267036l/6869361.jpg',
   price: 35.00)
-#   . . .
+#  . . .
 
 Product.create!(title: 'Hippopotamister - John Green',
   description: 
@@ -70,7 +70,7 @@ Product.create!(title: 'Hippopotamister - John Green',
     needs is a job where he can be himself. </p>},
   image_url: 'https://d.gr-assets.com/books/1448219199l/25689054.jpg',
   price: 34.75)
- #  . . .
+ #. . .
 
 Product.create!(title: 'I.D. - Emma Rios',
   description: 
@@ -79,7 +79,7 @@ Product.create!(title: 'I.D. - Emma Rios',
     body transplant as a solution to their lives. </p>},
   image_url: 'https://d.gr-assets.com/books/1458316490l/29005818.jpg',
   price: 34.50)
-#     . . .
+#  . . .
 
 Product.create!(title: 'The Problem with Forever - Jennifer L. Armentrout',
   description: 
@@ -95,7 +95,7 @@ Product.create!(title: 'The Problem with Forever - Jennifer L. Armentrout',
     hasn’t seen since childhood, on her very first day. </p>},
   image_url: 'https://d.gr-assets.com/books/1452349399l/26721568.jpg',
   price: 40.00)
-#       . . .
+#  . . .
 
 Product.create!(title: 'Anger and Forgiveness - Martha C. Nussbaum',
   description: 
@@ -109,7 +109,7 @@ Product.create!(title: 'Anger and Forgiveness - Martha C. Nussbaum',
     personal and the political? </p>},
   image_url: 'https://d.gr-assets.com/books/1450647202l/26721206.jpg',
   price: 37.00)
-#         . . .
+#  . . .
          
 #Product.create!(title: 'CoffeeScript',
 #  description: 
